@@ -2,8 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-  .btn-link{
-    @apply bg-slate-700 px-4 py-2 rounded-sm hover:border-b-2 border-b-2 border-transparent hover:border-slate-300
-  }
+
+
+@layer base {
+  @font-face {
+    font-family: 'Gumela';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gumela'), url('/fonts/Gumela.woff') format('woff');
 }
+  @font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url('/fonts/Ubuntu.woff2') format('woff2');
+}
+  @font-face {
+    font-family: 'Ubuntu Bold';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Ubuntu Bold'), url('/fonts/UbuntuBold.woff2') format('woff2');
+}
+
+
+ 
+}
+
+@layer utilities {
+
+  body{
+    font-family: Ubuntu;
+  }
+  
+}
+
+

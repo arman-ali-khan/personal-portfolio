@@ -4,7 +4,7 @@ import React from 'react';
 
 const Layout = ({children,title}) => {
     return (
-        <div className='container mx-auto'>
+        <div>
             <Navbar />
              <Head>
         <title>{title}</title>
