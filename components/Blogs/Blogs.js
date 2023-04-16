@@ -6,7 +6,7 @@ const Blogs = () => {
     <div>
       <div className="m-3 flex justify-between">
         <h2 className="text-lg leading-6 font-bold font-gumela"> Blogs</h2>
-        <Link href={"#"} className="">
+        <Link href={"/blogs"} className="">
           All Blogs
         </Link>
       </div>

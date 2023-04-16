@@ -11,7 +11,7 @@ const Projects = () => {
         <div>
             <div className='m-3 flex justify-between'>
                 <h2 className='text-xl font-bold font-gumela'>Projects</h2>
-                <Link href={'#'}>All Project</Link>
+                <Link href={'/projects'}>All Project</Link>
             </div>
             <div className='grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-2 w-full'>
             {/* <div class="w-full max-w-md px-8 py-4 mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">

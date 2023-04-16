@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Navbar = () => {
@@ -5,11 +6,11 @@ const Navbar = () => {
     <div className='flex justify-center sticky top-0 z-50'>
       <div className="navbar z-50 w-full duration-300 md:w-9/12 backdrop-blur-lg backdrop-contrast-75  rounded-full">
   <div className="flex-1">
-    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+    <Link href={'/'} className="btn btn-ghost normal-case text-xl">daisyUI</Link>
   </div>
   <div className="flex-1">
     <ul>
-      <li><button className='btn btn-sm btn-warning'>Home</button></li>
+      <li><Link href={'/'}><button className='btn btn-sm btn-warning'>Home</button></Link></li>
     </ul>
   </div>
   <div className="flex-none">
