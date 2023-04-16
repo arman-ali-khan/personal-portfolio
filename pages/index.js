@@ -7,6 +7,8 @@ import Address from "@/components/Address/Address";
 import Contact from "@/components/Contact/Contact";
 import Projects from "@/components/Projects/Projects";
 import Blogs from "@/components/Blogs/Blogs";
+import Testimonial from "@/components/Testimonials/Testimonial";
+import FAQ from "@/components/FAQ/FAQ";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +32,9 @@ export default function Home() {
         <div>
           <Contact />
         </div>
+        <div>
+          <FAQ />
+        </div>
       </section>
       <section className="flex flex-col gap-12 mx-1 sm:mx-3 md:mx-5 md:w-8/12">
         <div>
@@ -37,6 +42,9 @@ export default function Home() {
         </div>
         <div>
           <Blogs />
+        </div>
+        <div>
+          <Testimonial />
         </div>
       </section>
     </main>
