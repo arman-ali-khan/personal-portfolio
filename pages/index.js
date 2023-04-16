@@ -15,7 +15,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <Layout title={"Home"}>
-    <main className="sm:flex w-full">
+    <main className="md:flex w-full">
     <section className="flex flex-col gap-12 md:mx-5 md:w-4/12">
         <div>
           <Hero />
@@ -29,10 +29,10 @@ export default function Home() {
         <div>
           <Address />
         </div>
-        <div>
+        <div className="md:block hidden">
           <Contact />
         </div>
-        <div>
+        <div className="md:block hidden">
           <FAQ />
         </div>
       </section>
@@ -45,6 +45,12 @@ export default function Home() {
         </div>
         <div>
           <Testimonial />
+        </div>
+        <div className="md:hidden">
+        <Contact />
+        </div>
+        <div className="md:hidden">
+        <FAQ />
         </div>
       </section>
     </main>

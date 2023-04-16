@@ -1,14 +1,33 @@
+import ReactSkillbar, { SkillBar } from 'react-skillbars';
 
 const Skill = ({item}) => {
+  const allSkills = [
+    {type:'HTML',level:90},
+    {type:'HTML',level:50},
+    {type:'CSS',level:66},
+    {type:'Javascript',level:20},
+    {type:'HTML',level:50},
+    {type:'Tailwind',level:50},
+    {type:'Firebase',level:50},
+    {type:'MongoDB',level:50},
+    {type:'Express',level:66},
+    {type:'Node',level:50},
+   ]
+
+ const colors = {
+  bar: 'red',
+  title: {
+    text: '#abc123',
+    background: '#fff',
+  },
+};
     
     return (
-        <div className={`h-6 relative rounded-full tooltip z-40`} data-tip={`${item.size}%`}>
-        <div className="w-full h-full bg-gray-200 rounded-full absolute " ></div>
-        <div
-          id="bar"
-          className={`transition-all z-30 ease-out  duration-1000 h-full 
-          before:content-normal before:h-full before:-z-10  before:rounded-full before:bg-green-500 before:absolute before:left-0 before:w-[${item.size}%] relative w-full px-3  `} >{item.name}</div>
-
+        <div className={`h-6 relative rounded-full tooltip z-40`} >
+        <div className="w-44 h-full bg-gray-200 rounded-full absolute " ></div>
+        <div >
+        <SkillBar skills={allSkills} colors={colors} height={'20px'} />
+       </div>
       </div>
     );
 };

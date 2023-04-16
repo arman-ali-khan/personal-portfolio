@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import {MdKeyboardArrowUp,MdKeyboardArrowDown} from 'react-icons/md';
 
 const FAQ = () => {
-    const [tabIndex,setTabIndex] = useState('0')
+    const [tabIndex,setTabIndex] = useState('')
     return (
-        <div>
+        <div className='border rounded-md p-3'>
+            <div>
+                <h2 className='text-xl font-bold font-gumela'>FAQ</h2>
+            </div>
           <div tabIndex={0} onFocus={()=>setTabIndex('0')} onBlur={()=>setTabIndex('')} className="collapse">
   <div className="collapse-title flex justify-between text-xl font-medium">
     <p>Who are you?</p> <span>{tabIndex!=='0'? <MdKeyboardArrowDown /> :<MdKeyboardArrowUp />}</span>

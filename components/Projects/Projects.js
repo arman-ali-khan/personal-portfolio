@@ -13,7 +13,7 @@ const Projects = () => {
                 <h2 className='text-xl font-bold font-gumela'>Projects</h2>
                 <Link href={'#'}>All Project</Link>
             </div>
-            <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-2 w-full'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-2 w-full'>
             {/* <div class="w-full max-w-md px-8 py-4 mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
     <div class="flex justify-center -mt-16 md:justify-end">
         <img class="object-cover w-20 h-20 border-2 border-blue-500 rounded-full dark:border-blue-400" alt="Testimonial avatar" src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=76&q=80" />
@@ -28,7 +28,7 @@ const Projects = () => {
     </div>
 </div> */}
 <div class="flex flex-col items-center justify-center w-full mx-auto">
-    <img src='https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80' class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" />
+    <img src='https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80' class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md object-cover" />
 
     <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
         <h3 onClick={()=>setModalShow(!modalShow)} class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">Nike Revolt</h3>
@@ -40,7 +40,7 @@ const Projects = () => {
     </div>
 </div>
 <div class="flex flex-col items-center justify-center w-full mx-auto">
-    <img src='https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80' class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" />
+    <img src='https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80' class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md object-cover" />
 
     <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
         <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">Nike Revolt</h3>
@@ -52,7 +52,7 @@ const Projects = () => {
     </div>
 </div>
 <div class="flex flex-col items-center justify-center w-full mx-auto">
-    <img src='https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80' class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" />
+    <img src='https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80' class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md object-cover" />
 
     <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
         <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">Nike Revolt</h3>
@@ -64,7 +64,7 @@ const Projects = () => {
     </div>
 </div>
 <div class="flex flex-col items-center justify-center w-full mx-auto">
-    <img src='https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80' class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" />
+    <img src='https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80' class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md object-cover" />
 
     <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
         <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">Nike Revolt</h3>
