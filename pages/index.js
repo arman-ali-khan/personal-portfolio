@@ -3,15 +3,15 @@ import Layout from "@/Layout/Layout";
 import Hero from "@/components/Hero/Hero";
 import Skills from "@/components/Skills/Skills";
 import Qualification from "@/components/Qualification/Qualification";
-import Portfolio from "@/components/Portfolio/Portfolio";
 import Address from "@/components/Address/Address";
+import Contact from "@/components/Contact/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <Layout title={"Home"}>
-      <div className="flex flex-col gap-12 mx-12 w-4/12">
+      <div className="flex flex-col gap-12 md:mx-12 md:w-4/12">
         <div>
           <Hero />
         </div>
@@ -25,7 +25,7 @@ export default function Home() {
           <Address />
         </div>
         <div>
-          <Portfolio />
+          <Contact />
         </div>
       </div>
     </Layout>
