@@ -5,13 +5,16 @@ import Skills from "@/components/Skills/Skills";
 import Qualification from "@/components/Qualification/Qualification";
 import Address from "@/components/Address/Address";
 import Contact from "@/components/Contact/Contact";
+import Projects from "@/components/Projects/Projects";
+import Blogs from "@/components/Blogs/Blogs";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <Layout title={"Home"}>
-      <div className="flex flex-col gap-12 md:mx-12 md:w-4/12">
+    <main className="sm:flex w-full">
+    <section className="flex flex-col gap-12 md:mx-5 md:w-4/12">
         <div>
           <Hero />
         </div>
@@ -27,7 +30,16 @@ export default function Home() {
         <div>
           <Contact />
         </div>
-      </div>
+      </section>
+      <section className="flex flex-col gap-12 mx-1 sm:mx-3 md:mx-5 md:w-8/12">
+        <div>
+          <Projects />
+        </div>
+        <div>
+          <Blogs />
+        </div>
+      </section>
+    </main>
     </Layout>
   );
 }
