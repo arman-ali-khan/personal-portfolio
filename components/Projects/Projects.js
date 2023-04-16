@@ -6,7 +6,7 @@ const Projects = () => {
     // Modal show / hide
     const [modalShow,setModalShow] = useState(false)
     // send data to modal
-    const [modalData,setModalData] = useState('Hello Modal')
+    const [modalData,setModalData] = useState({data:'Hello Modal'})
     return (
         <div>
             <div className='m-3 flex justify-between'>
@@ -31,7 +31,7 @@ const Projects = () => {
     <img src='https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80' class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" />
 
     <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
-        <h3 class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">Nike Revolt</h3>
+        <h3 onClick={()=>setModalShow(!modalShow)} class="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">Nike Revolt</h3>
 
         <div class="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
             <span class="font-bold text-gray-800 dark:text-gray-200">$129</span>
@@ -77,7 +77,9 @@ const Projects = () => {
 </div>
             </div>
             {/* Modal inport */}
-            <ProjectDetails />
+           {
+            modalShow &&  <ProjectDetails modalShow={modalShow} setModalShow={setModalShow} />
+           }
         </div>
     );
 };
