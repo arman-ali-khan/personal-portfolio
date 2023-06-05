@@ -2,40 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @layer base {
   @font-face {
-    font-family: 'Gumela';
+    font-family: "Gumela";
     font-style: normal;
     font-weight: 400;
-    src: local('Gumela'), url('/fonts/Gumela.woff') format('woff');
-}
+    src: local("Gumela"), url("/fonts/Gumela.woff") format("woff");
+  }
   @font-face {
-    font-family: 'Ubuntu';
+    font-family: "Ubuntu";
     font-style: normal;
     font-weight: 400;
-    src: local('Ubuntu'), url('/fonts/Ubuntu.woff2') format('woff2');
-}
+    src: local("Ubuntu"), url("/fonts/Ubuntu.woff2") format("woff2");
+  }
   @font-face {
-    font-family: 'Ubuntu Bold';
+    font-family: "Ubuntu Bold";
     font-style: normal;
     font-weight: 500;
-    src: local('Ubuntu Bold'), url('/fonts/UbuntuBold.woff2') format('woff2');
-}
-
-
- 
+    src: local("Ubuntu Bold"), url("/fonts/UbuntuBold.woff2") format("woff2");
+  }
 }
 
 @layer utilities {
-
-  body{
+  body {
     font-family: Ubuntu;
   }
-  
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-
+._10 {
+  width: 10%;
+}
+._20 {
+  width: 20%;
+}
+._30 {
+  width: 30%;
+}
+._40 {
+  width: 40%;
+}
+._50 {
+  width: 50%;
+}
+._60 {
+  width: 60%;
+}
+._70 {
+  width: 70%;
+}
+._80 {
+  width: 80%;
+}
+._90 {
+  width: 90%;
+}
+._100 {
+  width: 100%;
+}

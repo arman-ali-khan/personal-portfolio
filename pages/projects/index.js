@@ -1,11 +1,11 @@
+import Layout from '@/Layout/Layout';
 import AllProjects from '@/components/Projects/AllProjects';
-import React from 'react';
 
 const index = () => {
     return (
-        <div>
+        <Layout className="container mx-auto" title={'Projects'}>
             <AllProjects />
-        </div>
+        </Layout>
     );
 };
 
