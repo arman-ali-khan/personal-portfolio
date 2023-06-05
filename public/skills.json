@@ -1,0 +1,9 @@
+[
+  { "title": "HTML", "range": "w-[50%]", "id": "1", "bg": "bg-blue-400" },
+  { "title": "CSS", "range": "w-[70%]", "id": "2", "bg": "bg-blue-400" },
+  { "title": "JS", "range": "w-[70%]", "id": "3", "bg": "bg-blue-400" },
+  { "title": "Tailwind", "range": "w-[60%]", "id": "4", "bg": "bg-blue-400" },
+  { "title": "ReactJS", "range": "w-[80%]", "id": "5", "bg": "bg-blue-400" },
+  { "title": "NodeJS", "range": "w-[70%]", "id": "6", "bg": "bg-blue-400" },
+  { "title": "Express", "range": "w-[70%]", "id": "7", "bg": "bg-blue-400" }
+]

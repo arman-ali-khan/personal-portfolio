@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className=" z-10 backdrop-blur-2xl bg-base-200 h-96 rounded-lg overflow-hidden relative">
+    <div className=" z-10 backdrop-blur-2xl bg-base-100 border h-96 rounded-lg overflow-hidden relative">
       <div className="w-full flex justify-center py-4">
         <Image
           className="rounded-full border-warning border-4"
@@ -27,7 +27,7 @@ const Hero = () => {
         </a>
         <a
           className="w-1/2 ml-1 btn btn-warning btn-sm rounded-tl-3xl rounded-br-lg rounded-none"
-          href="#"
+          href="/about"
         >
           About Me
         </a>

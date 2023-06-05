@@ -1,10 +1,9 @@
-import React from 'react';
 
 const Contact = () => {
     return (
         <div className='w-full border rounded-lg p-4'>
             <div>
-                <h2 className='text-xl font-bold font-gumela my-2'>Contact Me</h2>
+            <h1 className="text-xl font-gumela font-bold  py-2">Contact Me</h1>
             </div>
             <form>
                <div className='flex flex-col my-1'>

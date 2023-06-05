@@ -1,11 +1,10 @@
 import Footer from '@/components/Shared/Footer/Footer';
 import Navbar from '@/components/Shared/Navbar/Navbar';
 import Head from 'next/head';
-import React from 'react';
 
 const Layout = ({children,title}) => {
     return (
-        <div>
+        <div className='container mx-auto'>
             <Navbar />
              <Head>
         <title>{title}</title>

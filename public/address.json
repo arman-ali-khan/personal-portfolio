@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "title": "Company",
+    "option": "None",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3095/3095581.png",
+    "url": "#"
+  },
+  {
+    "id": "2",
+    "title": "Email",
+    "option": "sparmankhan@gmail.com",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3095/3095581.png",
+    "url": "mailto:sparmankhan@gmail.com"
+  },
+  {
+    "id": "3",
+    "title": "Github",
+    "option": "arman-ali-khan",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3095/3095581.png",
+    "url": "https://github.com/arman-ali-khan"
+  },
+  {
+    "id": "4",
+    "title": "Linkedin",
+    "option": "arman-ali-khan",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3095/3095581.png",
+    "url": "https://linkedin.com/in/arman-ali-khan"
+  },
+  {
+    "id": "5",
+    "title": "Location",
+    "option": "Bangladesh",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3095/3095581.png",
+    "url": "https://www.google.com/search?q=bangladesh&oq=bangladesh"
+  },
+  {
+    "id": "6",
+    "title": "Medium",
+    "option": "@armanalikhan",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3095/3095581.png",
+    "url": "https://medium.com/@armanalikhan"
+  },
+  {
+    "id": "7",
+    "title": "Twitter",
+    "option": "arman_ali_khan",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3095/3095581.png",
+    "url": "https://twitter.com/arman_ali_khan"
+  },
+  {
+    "id": "8",
+    "title": "Portfolio",
+    "option": "https://arman.top",
+    "icon": "https://cdn-icons-png.flaticon.com/512/3095/3095581.png",
+    "url": "https://arman.top"
+  }
+]

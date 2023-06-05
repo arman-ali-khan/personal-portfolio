@@ -1,13 +1,12 @@
 import Layout from '@/Layout/Layout';
-import AllBlogs from '@/components/Blogs/AllBlogs';
 import React from 'react';
 
-const index = () => {
+const about = () => {
     return (
         <Layout>
-            <AllBlogs />
+            About
         </Layout>
     );
 };
 
-export default index;
+export default about;
