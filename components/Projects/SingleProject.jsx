@@ -8,18 +8,20 @@ const SingleProject = ({ project }) => {
   const [modalData, setModalData] = useState(project);
   return (
     <div className="flex flex-col items-center justify-center w-full mx-auto">
-      <img
+     <div className="bg-warning pb-6 w-full rounded-md border">
+     <img
         src={project?.thumb}
-        className="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md object-cover"
+        className="w-full h-56 bg-gray-300 rounded-md bg-center bg-cover shadow-md object-cover"
       />
+     </div>
 
-      <div className="w-56 -mt-10 overflow-hidden bg-base-200 rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
-        <h3 className="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white truncate px-1">
+      <div className="w-56 -mt-10 border rounded-md overflow-hidden backdrop-blur-lg shadow-lg md:w-64">
+        <h3 className="py-2 font-bold tracking-wide text-center text-gray-800 uppercase px-1">
           {project?.name}
         </h3>
 
-        <div className="flex items-center justify-between px-3 py-2 bg-base-200 dark:bg-gray-700">
-          <span className="font-bold text-gray-800 dark:text-gray-200">
+        <div className="flex items-center justify-between px-3 py-2 backdrop-blur-lg">
+          <span className="font-bold text-gray-800">
             <a
               className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full"
               href={""}

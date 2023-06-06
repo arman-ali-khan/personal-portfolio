@@ -30,9 +30,11 @@ export default function Home() {
             <Address />
           </div>
           <div className="md:block hidden">
+            <FAQ />
+          </div>
+          <div className="md:block hidden">
             <Contact />
           </div>
-          <div className="md:block hidden"><FAQ /></div>
         </section>
         <section className="flex flex-col gap-3 md:mx-2 md:w-8/12">
           <div>
@@ -45,11 +47,11 @@ export default function Home() {
             <Testimonial />
           </div>
           <div className="md:hidden">
-            <Contact />
+            <FAQ />
           </div>
           <div className="md:hidden">
-            <FAQ />
-            </div>
+            <Contact />
+          </div>
         </section>
       </main>
     </Layout>
